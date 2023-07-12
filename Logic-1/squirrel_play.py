@@ -9,6 +9,6 @@
 # squirrel_play(95, True) → True
  
 def squirrel_play(temp, is_summer):
-    print('hi')
+    pass
 
 print(squirrel_play(70, False))
