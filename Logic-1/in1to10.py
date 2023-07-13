@@ -9,8 +9,11 @@
 
 def in1to10(n, outside_mode):
     if not outside_mode: 
-        if n in range(1,11):
-            return True
+        if n in range(1,11): return True
+        else: return False
+    elif outside_mode:
+        if n <= 1 or n >= 10: return True
+        else: return False
     
 
-print(in1to10(5, False))
+print(in1to10(11, False))
